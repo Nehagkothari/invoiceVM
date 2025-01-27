@@ -12,11 +12,5 @@ pyodbc
 sqlalchemy
 azure-storage-blob
 
-# System dependencies (should be installed separately if using cloud services like Google Colab)
-# unixodbc-dev
-# msodbcsql17
-
 # Optional: Direct installation from GitHub (ensure compatibility)
-git+https://github.com/huggingface/transformers.git
-!apt-get update
-!apt-get install -y unixodbc-dev msodbcsql17
+git+https://github.com/huggingface/transformers.git#egg=transformers
