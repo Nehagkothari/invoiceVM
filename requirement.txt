@@ -3,7 +3,7 @@ pytesseract
 transformers==4.38.2
 qwen_vl_utils
 auto-gptq
-autoawq --upgrade
+autoawq
 optimum[graphcore]
 gradio
 
